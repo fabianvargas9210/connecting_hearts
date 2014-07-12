@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85a33ee9-e6f1-41c7-8684-ff5b7d0f9976" name="Default" comment="" />
+    <ignored path="connecting_hearts.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="connecting_hearts" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="nuevo-contacto.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/contactos/nuevo-contacto.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="0" selection-start="2557" selection-end="2557" vertical-scroll-proportion="-11.769231" vertical-offset="663" max-vertical-offset="1700">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ja.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/contactos/ja.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="72" selection-start="1284" selection-end="1284" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="493">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactManager.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Managers/ContactManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="952" selection-end="952" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="714">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsersController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="5" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.029668411" vertical-offset="629" max-vertical-offset="2346">
+              <folding>
+                <element signature="e#6#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MunicipiosRepo.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Repositories/MunicipiosRepo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="425">
+              <folding>
+                <element signature="e#47#89#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app/views/users/account.blade.php" />
+        <option value="$PROJECT_DIR$/app/ConnectingHearts/Managers/AccountManager.php" />
+        <option value="$PROJECT_DIR$/app/ConnectingHearts/Managers/ValidationExeception.php" />
+        <option value="$PROJECT_DIR$/app/ConnectingHearts/Managers/ValidationException.php" />
+        <option value="$PROJECT_DIR$/app/start/global.php" />
+        <option value="$PROJECT_DIR$/app/views/contactos/show.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/panel/editarcontacto.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/contactos/EditarContacto.blade.php" />
+        <option value="$PROJECT_DIR$/app/ConnectingHearts/Repositories/BaseRepo.php" />
+        <option value="$PROJECT_DIR$/app/views/panel/panel.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/contactos/contactos.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/contactos/edit.php" />
+        <option value="$PROJECT_DIR$/app/views/panel/panelcontactos.blade.php" />
+        <option value="$PROJECT_DIR$/app/database/seeds/ListapaisesTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/app/ConnectingHearts/Components/Field.php" />
+        <option value="$PROJECT_DIR$/app/ConnectingHearts/Components/FieldServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/lang/en/validation.php" />
+        <option value="$PROJECT_DIR$/public/estilos/bootstrap/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/public/estilos/purpose/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/public/estilos/original/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/app/lang/es/utils.php" />
+        <option value="$PROJECT_DIR$/app/ConnectingHearts/Managers/RegisterManager.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/config/app.php" />
+        <option value="$PROJECT_DIR$/app/ConnectingHearts/Entities/User.php" />
+        <option value="$PROJECT_DIR$/app/database/seeds/ContactTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/views/contactos/agregar.blade.php" />
+        <option value="$PROJECT_DIR$/app/ConnectingHearts/Components/FieldBuilder.php" />
+        <option value="$PROJECT_DIR$/app/views/layout.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/users/sign-up.blade.php" />
+        <option value="$PROJECT_DIR$/app/ConnectingHearts/Repositories/UserRepo.php" />
+        <option value="$PROJECT_DIR$/app/ConnectingHearts/Managers/BaseManager.php" />
+        <option value="$PROJECT_DIR$/app/ConnectingHearts/Repositories/ContactRepo.php" />
+        <option value="$PROJECT_DIR$/app/ConnectingHearts/Entities/Contact.php" />
+        <option value="$PROJECT_DIR$/app/ConnectingHearts/Entities/Tipo.php" />
+        <option value="$PROJECT_DIR$/app/ConnectingHearts/Repositories/TipoRepo.php" />
+        <option value="$PROJECT_DIR$/app/views/contactos/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/controllers/TiposController.php" />
+        <option value="$PROJECT_DIR$/public/style.css" />
+        <option value="$PROJECT_DIR$/app/views/contactos/tipo.blade.php" />
+        <option value="$PROJECT_DIR$/app/lang/es/validation.php" />
+        <option value="$PROJECT_DIR$/app/views/fields/default.blade.php" />
+        <option value="$PROJECT_DIR$/app/ConnectingHearts/Repositories/PaisRepo.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/ConnectingHearts/Repositories/EstadosRepo.php" />
+        <option value="$PROJECT_DIR$/app/ConnectingHearts/Repositories/MunicipiosRepo.php" />
+        <option value="$PROJECT_DIR$/app/views/contactos/nuevo-contacto.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/contactos/ja.php" />
+        <option value="$PROJECT_DIR$/app/ConnectingHearts/Managers/ContactManager.php" />
+        <option value="$PROJECT_DIR$/app/controllers/UsersController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estilos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fields" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contactos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="es" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConnectingHearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Repositories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConnectingHearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Managers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConnectingHearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConnectingHearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="connecting_hearts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commands" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="SearchEverywhereHistory" value="&#10;ti&#10;=&#10;|&#10;;" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\connecting_hearts\app\ConnectingHearts\Repositories" />
+      <recent name="C:\xampp\htdocs\connecting_hearts\app\views\contactos" />
+      <recent name="C:\xampp\htdocs\connecting_hearts\app\ConnectingHearts\Managers" />
+      <recent name="C:\xampp\htdocs\connecting_hearts\app\views\panel" />
+      <recent name="C:\xampp\htdocs\connecting_hearts\app\views\users" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\connecting_hearts\app\views\contactos" />
+      <recent name="C:\xampp\htdocs\connecting_hearts\app\database\migrations" />
+      <recent name="C:\xampp\htdocs\connecting_hearts\app\database\test" />
+      <recent name="C:\xampp\htdocs\connecting_hearts\app\connectingHearts" />
+      <recent name="C:\xampp\htdocs\connecting_hearts\app\database\temporal" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85a33ee9-e6f1-41c7-8684-ff5b7d0f9976" name="Default" comment="" />
+      <created>1400707105928</created>
+      <updated>1400707105928</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27086383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="30" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/estilos/purpose/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="198" selection-end="198" vertical-scroll-proportion="0.17028381" vertical-offset="0" max-vertical-offset="599" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/estilos/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="46" selection-start="274" selection-end="274" vertical-scroll-proportion="0.17028381" vertical-offset="0" max-vertical-offset="599" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/estilos/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1694" column="12" selection-start="29789" selection-end="29789" vertical-scroll-proportion="0.47579297" vertical-offset="28513" max-vertical-offset="98447" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/estilos/original/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1687" column="16" selection-start="29795" selection-end="29795" vertical-scroll-proportion="0.19412725" vertical-offset="28560" max-vertical-offset="104261" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_05_15_223130_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_05_23_154013_create_tipos_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_05_29_021915_create_contacs_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="39" selection-start="717" selection-end="730" vertical-scroll-proportion="-15.423077" vertical-offset="7" max-vertical-offset="884" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Entities/Ubicacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="652" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Entities/ListaEstados.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="1" selection-start="111" selection-end="111" vertical-scroll-proportion="0.112396695" vertical-offset="0" max-vertical-offset="605" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="652" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Components/FieldServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="9" selection-start="332" selection-end="332" vertical-scroll-proportion="0.3258786" vertical-offset="0" max-vertical-offset="626" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="41" selection-start="4300" selection-end="4300" vertical-scroll-proportion="0.4888179" vertical-offset="1734" max-vertical-offset="3519" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="21" selection-start="422" selection-end="422" vertical-scroll-proportion="0.46166134" vertical-offset="0" max-vertical-offset="833" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/panel/panelcontactos.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="5" selection-start="5231" selection-end="5231" vertical-scroll-proportion="0.9004894" vertical-offset="1352" max-vertical-offset="2006" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/panel/panel.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="5" selection-start="3567" selection-end="3567" vertical-scroll-proportion="0.9445351" vertical-offset="917" max-vertical-offset="1598" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Managers/ValidationException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="631" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="59" selection-start="843" selection-end="843" vertical-scroll-proportion="-1.6485623" vertical-offset="1406" max-vertical-offset="2261" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/account.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="27" selection-start="396" selection-end="402" vertical-scroll-proportion="0.40663177" vertical-offset="5" max-vertical-offset="1037" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/sign-up.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="26" selection-start="407" selection-end="415" vertical-scroll-proportion="-8.961538" vertical-offset="5" max-vertical-offset="629" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Repositories/UserRepo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="6" selection-start="458" selection-end="458" vertical-scroll-proportion="0.5115044" vertical-offset="0" max-vertical-offset="565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Managers/BaseManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contactos/contactos.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="652" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Managers/AccountManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="2" selection-start="384" selection-end="384" vertical-scroll-proportion="0.4888179" vertical-offset="0" max-vertical-offset="626">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Repositories/BaseRepo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="5" selection-start="355" selection-end="355" vertical-scroll-proportion="0.51597446" vertical-offset="0" max-vertical-offset="626">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Repositories/ContactRepo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="0.51597446" vertical-offset="0" max-vertical-offset="626">
+          <folding>
+            <element signature="e#47#85#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Entities/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.4025559" vertical-offset="938" max-vertical-offset="1632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/ContactTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="731" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/TipoTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="1" selection-start="980" selection-end="980" vertical-scroll-proportion="-16.653847" vertical-offset="264" max-vertical-offset="918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Entities/Contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="32" selection-start="111" selection-end="111" vertical-scroll-proportion="0.118673645" vertical-offset="0" max-vertical-offset="573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Entities/Tipo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="587" selection-end="587" vertical-scroll-proportion="0.7542662" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Managers/RegisterManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="43" selection-end="85" vertical-scroll-proportion="0.029010238" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/TiposController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="24" selection-start="1846" selection-end="1846" vertical-scroll-proportion="0.83617747" vertical-offset="598" max-vertical-offset="1224">
+          <folding>
+            <element signature="e#7#53#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contactos/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="61" selection-start="1543" selection-end="1543" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lang/es/utils.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="18" selection-start="21" selection-end="34" vertical-scroll-proportion="0.087030716" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lang/es/validation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="53" selection-start="4993" selection-end="4993" vertical-scroll-proportion="0.70989764" vertical-offset="1403" max-vertical-offset="2023">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Components/FieldBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.2901024" vertical-offset="0" max-vertical-offset="2210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contactos/tipo.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="10" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.9419795" vertical-offset="315" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/fields/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="191" selection-end="191" vertical-scroll-proportion="0.17406143" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Components/Field.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="187" selection-end="187" vertical-scroll-proportion="0.2320819" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="0.16666667" vertical-offset="0" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Repositories/TipoRepo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="39" selection-start="298" selection-end="303" vertical-scroll-proportion="-9.769231" vertical-offset="1" max-vertical-offset="629">
+          <folding>
+            <element signature="e#47#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="50" selection-start="413" selection-end="413" vertical-scroll-proportion="0.31858408" vertical-offset="24" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Repositories/EstadosRepo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="405" selection-end="405" vertical-scroll-proportion="0.5415929" vertical-offset="0" max-vertical-offset="565">
+          <folding>
+            <element signature="e#47#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Repositories/PaisRepo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="46" selection-start="377" selection-end="377" vertical-scroll-proportion="0.43515357" vertical-offset="0" max-vertical-offset="586">
+          <folding>
+            <element signature="e#47#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/ListapaisesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="295" selection-end="295" vertical-scroll-proportion="0.34812286" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Entities/ListaPaises.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contactos/ja.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="72" selection-start="1284" selection-end="1284" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contactos/nuevo-contacto.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="2557" selection-end="2557" vertical-scroll-proportion="-11.769231" vertical-offset="663" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Repositories/MunicipiosRepo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="425">
+          <folding>
+            <element signature="e#47#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ConnectingHearts/Managers/ContactManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="952" selection-end="952" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="5" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.029668411" vertical-offset="629" max-vertical-offset="2346">
+          <folding>
+            <element signature="e#6#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

@@ -1,0 +1,35 @@
+<?php
+
+Route::get('/', ['as'=> 'home', 'uses' => 'HomeController@index']);
+
+//candidates/Alcaldia/1
+Route::get('tipo/{slug}/{id}', ['as'=> 'tipo', 'uses' => 'TiposController@tipo']);
+
+//Jair-celis/1
+Route::get('{slug}/{id}', ['as'=> 'contact', 'uses' => 'TiposController@show']);
+
+//login
+Route::post('panel', ['as' =>'login', 'uses'=> 'AuthController@login'] );
+Route::get('logout', ['as' =>'logout', 'uses'=> 'AuthController@logout'] );
+
+//Paneles
+Route::get('panel', ['as'=> 'panel', 'uses' => 'PanelController@panelhome']);
+Route::get('panel-contactos', ['as'=> 'panel-contactos', 'uses' => 'PanelController@panelcontactos']);
+
+//agregando un contactos
+Route::get('nuevo-contacto', ['as'=> 'nuevo-contacto', 'uses' =>'UsersController@agregar']);
+Route::post('newContact', ['as'=> 'newContact', 'uses' =>'UsersController@newContact']);
+
+
+//grabar un usuario
+Route::get('sign-up', ['as'=> 'sign_up', 'uses' =>'UsersController@signUp']);
+Route::post('sign-up', ['as'=> 'register', 'uses' =>'UsersController@register']);
+
+//Formularios
+Route::get('account', ['as' => 'account', 'uses' => 'UsersController@account' ]);
+Route::put('account', ['as' => 'update_account', 'uses' => 'UsersController@updateAccount' ]);
+
+//Editar contacto
+Route::get('editar/{slug}/{id}', ['as' => 'editar', 'uses' => 'TiposController@edit' ]);
+Route::put('editado', ['as' => 'update_contacto', 'uses' => 'TiposController@updateContacto' ]);
+
