@@ -74,13 +74,15 @@ class UsersController extends BaseController {
         $nombre_pais = $this->paisRepo->getList();
         $tipo_id = $this->tipoRepo->getList();
         $contacto_type = \Lang::get('utils.contacto_type');
-        return View::make('contactos/nuevo-contacto', compact('tipo_id', 'contacto_type','nombre_pais', 'nombre_estados', 'nombre_municipios'));
+        return View::make('contactos/nuevo-contacto', compact('tipo_id', 'contacto_type'));
+    //  return View::make('contactos/nuevo-contacto', compact('tipo_id', 'contacto_type','nombre_pais', 'nombre_estados', 'nombre_municipios'));
     }
 
     public function newContact()
     {
         $contact = $this->contactRepo->nuevoContact();
         $manager = new ContactManager($contact, Input::all());
+        dd($contact);
         $manager->save();
         return Redirect::back();
 

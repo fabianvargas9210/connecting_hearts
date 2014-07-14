@@ -1,6 +1,5 @@
 @extends('layout')
 @section('content')
-
 <div>
     <div class="section section-breadcrumbs">
         <div class="container">
@@ -47,15 +46,14 @@
                     <div class="testimonial-bubble">
                         <blockquote>
                             <div>
-
                                 {{ field::text('direccion', null, array('placeholder'=>'Dirección')) }}
-                                {{ field::select('nombre_pais', $nombre_pais) }}
-                                {{ field::select('nombre_estados', $nombre_estados) }}
-                                {{ field::select('ciudad_ciudad', $nombre_municipios) }}
-
-
+                                <div class="row">
+                                    <select class="control-label" id="pais" name="pais"></select>
+                                    <select  class="control-label" id="estado" name="estado">
+                                        <option value="">Es necesario seleccionar un pa&iacute;s</option>
+                                    </select>
+                                </div>
                             </div>
-
                         </blockquote>
                         <div class="sprite arrow-speech-bubble"></div>
                     </div>
@@ -71,8 +69,8 @@
                             </div>
 
                             <div>
-                                {{ field::select('contacto_type', $contacto_type) }}
                                 {{ field::select('tipo_id', $tipo_id) }}
+                                {{ field::select('contacto_type', $contacto_type) }}
                                 {{ field::checkbox('available') }}
                             </div>
 

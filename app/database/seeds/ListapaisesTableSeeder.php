@@ -10,6 +10,22 @@ class ListapaisesTableSeeder extends Seeder {
         DB::table('lista_paises')->insert(array(
             'pais' => 'Colombia'
         ));
+
+        DB::table('lista_paises')->insert(array(
+            'pais' => 'Guatemala'
+        ));
+
+        DB::table('lista_paises')->insert(array(
+            'pais' => 'Peru'
+        ));
+
+        DB::table('lista_paises')->insert(array(
+            'pais' => 'Mexico'
+        ));
+
+        DB::table('lista_paises')->insert(array(
+            'pais' => 'E.U.U'
+        ));
     }
 
 }

@@ -14,9 +14,6 @@
     <script type="text/javascript" src='//code.jquery.com/jquery-1.10.2.min.js'></script>
     <script type="text/javascript" src='{{ url("vendor/selectize/js/standalone/selectize.min.js") }}'></script>
 
-
-
-
     <!-- CSS
     <link href="{{ asset('/estilos/purpose/css/bootstrap.min.css') }}" rel="stylesheet">
 
@@ -45,7 +42,6 @@
 </head>
 
 <body>
-
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
@@ -95,15 +91,12 @@
 </div>
 
 @yield('content')
-
  <div class="container">
     <hr>
-
     <footer>
         <p>&copy;Corazones en Acción Colombia 2014°</p>
     </footer>
 </div> <!-- /container -->
-
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
@@ -121,8 +114,50 @@
 <script src="/estilos/purpose/js/main-menu.js"></script>
 <script src="/estilos/purpose/js/template.js"></script>
 
+{{ HTML::script('js/jquery-2.0.3.min.js') }}
+<script "type/javascript">
+    jQuery(document).ready(function() {
+        //Al iniciar mandamos consultar todos los paises que se mantienen en nuestra base de datos atravez de la ruta paises
+    $.ajax({
+        url: 'paises',
+        type: 'GET',
+        dataType: 'json',
+        success: function(pais){
+            $('select#pais').html('');
+            $('select#pais').append($('<option></option>').text('Seleccione un pais').val(''));
+            //recorremos con el metodo each el objeto
+            $.each(pais, function(i) {
+                //Con los parametros que recibimos en nuestro objeto pais creamos las opciones
+                $('select#pais').append("<option value=\""+pais[i].id+"\">"+pais[i].pais+"<\/option>");
+            });
+        }
+    })
 
+    //El metodo Change nos permite realizar una acción al momento que estamos interactuando con el elemento
+    $("#pais").change(function(event) {
+        var id_pais = $("#pais option:selected").val();  //obtenemos el id del pais que se mantiene seleccionado
 
+        //Por medio de AJAX consultamos la ruta creada en laravel llamada estados la cual recibe el id del país
+    $.ajax({
+        url: 'estados',
+        type: 'POST',
+        data: 'pais='+id_pais, //enviamos el id
+        dataType: 'json',
+        success: function(estado){
+            $('select#estado').html('');
+            $('select#estado').append($('<option></option>').text('Seleccione un estado').val(''));
+            //recorremos con el metodo each el objeto
+            $.each(estado, function(i) {
+                //Con los parametros que recibimos en nuestro objeto estado creamos las opciones
+                $('select#estado').append("<option value=\""+estado[i].id+"\">"+estado[i].estados+"<\/option>");
+                // estado[i].id = Contiene el id del estado
+                // estado[i].estados = Contiene el nombre del estado
+            });
+        }
+    })
+ });
+});
+</script>
 
 </body>
 </html>

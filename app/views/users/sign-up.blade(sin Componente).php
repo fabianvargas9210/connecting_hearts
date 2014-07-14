@@ -13,20 +13,14 @@
         <fieldset>
             <legend class="text-info">Un administrador te aceptara</legend>
             {{ Form::open(['route' => 'register', 'method' => 'POST', 'role' => 'form', 'novalidate']) }}
-            <div class="form-group">
-                    {{ Form::label('full_name', 'Nombre Completo', array("class"=>"col-lg-2 control-label")) }}
-                    <div class="col-lg-10">
-                        {{ Form::text('full_name', null, ['class'=>'form-control', 'placeholder'=>'Nombre Completo']) }}
-                        {{ $errors->first('full_name', '<p class="error_message">:message</p>') }}
-                    </div>
-                </div>
+            {{ Form::text('full_name', null, ['class'=>'form-control', 'placeholder'=>'Nombre Completo']) }}
             <div class="form-group">
                     {{ Form::label('email', 'correo', array("class"=>"col-lg-2 control-label")) }}
                     <div class="col-lg-10">
                         {{ Form::text('email', null, ['class'=>'form-control', 'placeholder'=>'Correo Electronico']) }}
                         {{ $errors->first('email', '<p class="error_message">:message</p>') }}
                     </div>
-                </div>
+            </div>
             <div class="form-group">
                     {{ Form::label('password', 'Contraseña', array("class"=>"col-lg-2 control-label")) }}
                     <div class="col-lg-10">

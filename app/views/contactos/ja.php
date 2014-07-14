@@ -22,3 +22,8 @@
 
 {{ field::text('nombre_pais', null, array('placeholder'=>'pais')) }}
 {{ field::text('ciudad_ciudad', null, array('placeholder'=>'ciudad')) }}
+
+
+
+@{{ field::select('nombre_estados', $nombre_estados) }}
+@{{ field::select('ciudad_ciudad', $nombre_municipios) }}

@@ -20,16 +20,21 @@ class CreateContacsTable extends Migration {
             $table->string('telefono1');
             $table->string('telefono2');
             $table->string('direccion');
-            $table->string('nombre_pais');
-            $table->string('ciudad_ciudad');
+
+            $table->integer('nombre_pais')->unsigned();
+            $table->foreign('nombre_pais')->references('id')->on('lista_paises');
+            $table->integer('nombre_estado')->unsigned();
+            $table->foreign('nombre_estado')->references('id')->on('lista_estados');
+            $table->integer('nombre_municipio')->unsigned();
+            $table->foreign('nombre_municipio')->references('id')->on('lista_municipios');
             $table->text('notas');
+
             $table->enum('Contacto_type', ['Festivalores', 'Pasando la Antorcha', 'Pare', 'Alagran', 'Conferencia', 'General']);
+
             $table->integer('tipo_id')->unsigned();
             $table->boolean('available');
             $table->string('slug');
             $table->foreign('tipo_id')->references('id')->on('tipos');
-
-
             $table->timestamps();
         });
 	}

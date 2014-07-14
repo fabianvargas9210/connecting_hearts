@@ -1,4 +1,7 @@
 <?php
+use ConnectingHearts\Entities\ListaPaises;
+use ConnectingHearts\Entities\ListaEstados;
+use ConnectingHearts\Entities\ListaMunicipios;
 
 Route::get('/', ['as'=> 'home', 'uses' => 'HomeController@index']);
 
@@ -33,3 +36,18 @@ Route::put('account', ['as' => 'update_account', 'uses' => 'UsersController@upda
 Route::get('editar/{slug}/{id}', ['as' => 'editar', 'uses' => 'TiposController@edit' ]);
 Route::put('editado', ['as' => 'update_contacto', 'uses' => 'TiposController@updateContacto' ]);
 
+//RUTAS LISTAS DEPENDIENTES FORMULARIOS PAIS ESTADO CIUDAD
+//Ruta para consultar todos los paises
+Route::get('paises', function(){
+    if(Request::ajax()){
+        return ListaPaises::all()->toJson();
+    }
+});
+
+//Ruta en la cual retornamos los estados relaccionados con el id del pais
+Route::POST('estados', function(){
+    if(Request::ajax()){
+        $id_pais = e(Input::get('pais'));
+        return ListaEstados::where('id_pais','=', $id_pais)->get();
+    }
+});

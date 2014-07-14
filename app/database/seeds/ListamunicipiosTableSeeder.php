@@ -6742,6 +6742,132 @@ class ListamunicipiosTableSeeder extends Seeder {
             'id_estado'   => '33'
         ));
 
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'COBÁN',
+            'id_pais'     => '2',
+            'id_estado'   => '34'
+        ));
+
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'SALAMÁ',
+            'id_pais'     => '2',
+            'id_estado'   => '35'
+        ));
+
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'CHIMALTENANGO',
+            'id_pais'     => '2',
+            'id_estado'   => '36'
+        ));
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'CHIQUIMULA',
+            'id_pais'     => '2',
+            'id_estado'   => '37'
+        ));
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'FLORES',
+            'id_pais'     => '2',
+            'id_estado'   => '38'
+        ));
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'GUASTATOYA',
+            'id_pais'     => '2',
+            'id_estado'   => '39'
+        ));
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'SANTA CRUZ DEL QUICHÉ',
+            'id_pais'     => '2',
+            'id_estado'   => '40'
+        ));
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'ESCUINTLA',
+            'id_pais'     => '2',
+            'id_estado'   => '41'
+        ));
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'CIUDAD DE GUATEMALA',
+            'id_pais'     => '2',
+            'id_estado'   => '42'
+        ));
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'HUEHUETENANGO',
+            'id_pais'     => '2',
+            'id_estado'   => '43'
+        ));
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'PUERTO BARRIOS',
+            'id_pais'     => '2',
+            'id_estado'   => '44'
+        ));
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'JALAPA',
+            'id_pais'     => '2',
+            'id_estado'   => '45'
+        ));
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'JUTIAPA',
+            'id_pais'     => '2',
+            'id_estado'   => '46'
+        ));
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'QUETZALTENANGO',
+            'id_pais'     => '2',
+            'id_estado'   => '47'
+        ));
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'RETALHULEU',
+            'id_pais'     => '2',
+            'id_estado'   => '48'
+        ));
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'LA ANTIGUA GUATEMALA',
+            'id_pais'     => '2',
+            'id_estado'   => '49'
+        ));
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'SAN MARCOS',
+            'id_pais'     => '2',
+            'id_estado'   => '50'
+        ));
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'CUILAPA',
+            'id_pais'     => '2',
+            'id_estado'   => '51'
+        ));
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'SOLOLÁ',
+            'id_pais'     => '2',
+            'id_estado'   => '52'
+        ));
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'MAZATENANGO',
+            'id_pais'     => '2',
+            'id_estado'   => '53'
+        ));
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'TOTONICAPÁN',
+            'id_pais'     => '2',
+            'id_estado'   => '54'
+        ));
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'ZACAPA',
+            'id_pais'     => '2',
+            'id_estado'   => '55'
+        ));
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'CIENEGUILLA',
+            'id_pais'     => '3',
+            'id_estado'   => '56'
+        ));
+        DB::table('lista_municipios')->insert(array(
+        'municipio'   => 'MEXICO DF',
+        'id_pais'     => '4',
+        'id_estado'   => '57'
+    ));
+
+
+
+
 
     }
 
