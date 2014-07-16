@@ -74,19 +74,22 @@ class UsersController extends BaseController {
         $nombre_pais = $this->paisRepo->getList();
         $tipo_id = $this->tipoRepo->getList();
         $contacto_type = \Lang::get('utils.contacto_type');
-        return View::make('contactos/nuevo-contacto', compact('tipo_id', 'contacto_type'));
-    //  return View::make('contactos/nuevo-contacto', compact('tipo_id', 'contacto_type','nombre_pais', 'nombre_estados', 'nombre_municipios'));
+        //   return View::make('contactos/nuevo-contacto', compact('tipo_id', 'contacto_type'));
+     return View::make('contactos/nuevo-contacto', compact('tipo_id', 'contacto_type','nombre_pais', 'nombre_estados', 'nombre_municipios'));
     }
 
     public function newContact()
     {
+
+
         $contact = $this->contactRepo->nuevoContact();
         $manager = new ContactManager($contact, Input::all());
-        dd($contact);
         $manager->save();
-        return Redirect::back();
+        return Redirect::route('home');
+        //return Redirect::back();
 
         //return Redirect::route('home');
+
         /*
         $contact = new Contact;
         $contact -> full_name = Input::get('full_name');
@@ -95,8 +98,9 @@ class UsersController extends BaseController {
         $contact -> telefono1 = Input::get('telefono1');
         $contact -> telefono2 = Input::get('telefono2');
         $contact -> direccion = Input::get('direccion');
-        $contact -> nombre_pais = Input::get('nombre_pais');
-        $contact -> ciudad_ciudad = Input::get('ciudad_ciudad');
+        $contact -> nombre_pais = Input::get('pais');
+        $contact -> nombre_estado = Input::get('estado');
+        $contact -> nombre_municipio = Input::get('municipio');
         $contact -> notas = Input::get('notas');
         $contact -> available = Input::get('available');
         $contact -> contacto_type = Input::get('contacto_type');
@@ -130,6 +134,6 @@ class UsersController extends BaseController {
         }
 
         return Redirect::back()->withInput()->withErrors($validation->messages());
-        */
+                */
     }
 }

@@ -47,12 +47,14 @@
                         <blockquote>
                             <div>
                                 {{ field::text('direccion', null, array('placeholder'=>'Dirección')) }}
-                                <div class="row">
-                                    <select class="control-label" id="pais" name="pais"></select>
-                                    <select  class="control-label" id="estado" name="estado">
-                                        <option value="">Es necesario seleccionar un pa&iacute;s</option>
-                                    </select>
-                                </div>
+                                <label class="control-label">Datos de Geograficos</label>
+                                <select class="form-control" id="pais" name="pais"></select>
+                                <select class="form-control" id="estado" name="estado">
+                                    <option value="">Es necesario seleccionar un Pais</option>
+                                </select>
+                                <select class="form-control" id="municipio" name="municipio">
+                                    <option value="">Es necesario seleccionar un estado</option>
+                                </select>
                             </div>
                         </blockquote>
                         <div class="sprite arrow-speech-bubble"></div>

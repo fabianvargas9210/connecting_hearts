@@ -6863,7 +6863,13 @@ class ListamunicipiosTableSeeder extends Seeder {
         'municipio'   => 'MEXICO DF',
         'id_pais'     => '4',
         'id_estado'   => '57'
-    ));
+        ));
+
+        DB::table('lista_municipios')->insert(array(
+            'municipio'   => 'OHIO',
+            'id_pais'     => '5',
+            'id_estado'   => '58'
+        ));
 
 
 

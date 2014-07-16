@@ -51,3 +51,11 @@ Route::POST('estados', function(){
         return ListaEstados::where('id_pais','=', $id_pais)->get();
     }
 });
+
+//Ruta en la cual retornamos los municipios relaccionados con el id del estado
+Route::POST('municipios', function(){
+    if(Request::ajax()){
+        $id_estado = e(Input::get('estado'));
+        return ListaMunicipios::where('id_estado','=', $id_estado)->get();
+    }
+});

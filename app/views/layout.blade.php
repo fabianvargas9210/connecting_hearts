@@ -117,8 +117,8 @@
 {{ HTML::script('js/jquery-2.0.3.min.js') }}
 <script "type/javascript">
     jQuery(document).ready(function() {
-        //Al iniciar mandamos consultar todos los paises que se mantienen en nuestra base de datos atravez de la ruta paises
-    $.ajax({
+     //Al iniciar mandamos consultar todos los paises que se mantienen en nuestra base de datos atravez de la ruta paises
+     $.ajax({
         url: 'paises',
         type: 'GET',
         dataType: 'json',
@@ -132,32 +132,53 @@
             });
         }
     })
-
     //El metodo Change nos permite realizar una acción al momento que estamos interactuando con el elemento
-    $("#pais").change(function(event) {
-        var id_pais = $("#pais option:selected").val();  //obtenemos el id del pais que se mantiene seleccionado
-
+     $("#pais").change(function(event) {
+     var id_pais = $("#pais option:selected").val();  //obtenemos el id del pais que se mantiene seleccionado
         //Por medio de AJAX consultamos la ruta creada en laravel llamada estados la cual recibe el id del país
-    $.ajax({
-        url: 'estados',
-        type: 'POST',
-        data: 'pais='+id_pais, //enviamos el id
-        dataType: 'json',
-        success: function(estado){
-            $('select#estado').html('');
-            $('select#estado').append($('<option></option>').text('Seleccione un estado').val(''));
-            //recorremos con el metodo each el objeto
-            $.each(estado, function(i) {
-                //Con los parametros que recibimos en nuestro objeto estado creamos las opciones
-                $('select#estado').append("<option value=\""+estado[i].id+"\">"+estado[i].estados+"<\/option>");
-                // estado[i].id = Contiene el id del estado
-                // estado[i].estados = Contiene el nombre del estado
-            });
-        }
-    })
- });
-});
-</script>
+        $.ajax({
+            url: 'estados',
+            type: 'POST',
+            data: 'pais='+id_pais, //enviamos el id
+            dataType: 'json',
+            success: function(estado){
+                $('select#estado').html('');
+                $('select#estado').append($('<option></option>').text('Seleccione un estado').val(''));
+                //recorremos con el metodo each el objeto
+                $.each(estado, function(i) {
+                    //Con los parametros que recibimos en nuestro objeto estado creamos las opciones
+                    $('select#estado').append("<option value=\""+estado[i].id+"\">"+estado[i].estados+"<\/option>");
+                    // estado[i].id = Contiene el id del estado
+                    // estado[i].estados = Contiene el nombre del estado
+                    });
+                }
+            })
+        });
 
+        //El metodo Change nos permite realizar una acción al momento que estamos interactuando con el elemento
+     $("#estado").change(function(event) {
+     var id_estado = $("#estado option:selected").val();  //obtenemos el id del pais que se mantiene seleccionado
+        //Por medio de AJAX consultamos la ruta creada en laravel llamada estados la cual recibe el id del país
+        $.ajax({
+            url: 'municipios',
+            type: 'POST',
+            data: 'estado='+id_estado, //enviamos el id
+            dataType: 'json',
+            success: function(municipio){
+                $('select#municipio').html('');
+                $('select#municipio').append($('<option></option>').text('Seleccione un municipio').val(''));
+                //recorremos con el metodo each el objeto
+                $.each(municipio, function(i) {
+                    //Con los parametros que recibimos en nuestro objeto estado creamos las opciones
+                    $('select#municipio').append("<option value=\""+municipio[i].id+"\">"+municipio[i].municipio+"<\/option>");
+                    // estado[i].id = Contiene el id del Municipio
+                    // estado[i].estados = Contiene el nombre del Municipio
+                    });
+                }
+            })
+        });
+    
+    });
+</script>
 </body>
 </html>
