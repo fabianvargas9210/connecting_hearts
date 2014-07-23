@@ -15,10 +15,10 @@ class ContactManager extends BaseManager {
             'nombre_estado'        => 'required|exists:lista_estados,id',
             'nombre_municipio'     => 'required|exists:lista_municipios,id',
             'notas'                => 'required|max:100',
-            'available'            => 'in:1,0',
             'contacto_type'        => 'required|in:Festivalores,Pasando la Antorcha,Pare,Alagran,Conferencia,General',
-            'tipo_id'              => 'required|exists:tipos,id'
-
+            'tipo_id'              => 'required|exists:tipos,id',
+            'estado_actual'        => 'required|in:Activo', 'en curso', 'Informado', 'Pendiente', 'Cancelado', 'Finalizado',
+            'modulo'               => 'required|in:No.1', 'No.2', 'No.3', 'No.4'
         ];
 
         return $rules;

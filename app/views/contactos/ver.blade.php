@@ -12,7 +12,7 @@
     </div>
     <div class="section">
         <div class="container">
-            <h2>Contacto:
+            <h2>
                 <a>
                     {{ $contact->full_name }}
                 </a>
@@ -22,19 +22,20 @@
                 <div class="testimonial col-md-4 col-sm-6">
                     <!-- Author Photo -->
                     <div class="author-photo">
-                        <img src="img/user1.png" alt="Author 1">
+                        <img src="../img/user1.png" alt="Author 1">
                     </div>
                     <div class="testimonial-bubble">
                         <blockquote>
                             <fieldset>
-                                 <div>
-                                     <p>Programa: {{ $contact->Contacto_type }}</p>
-                                     <p>Correo: {{$contact->email}}</p>
-                                     <p>Telefono de Contato 1: {{$contact->telefono1}}</p>
-                                     <p>Telefono de Contato 2: {{$contact->telefono2}}</p>
-                                     <p>Direccion: {{$contact->direccion}}</p>
-                                     <p>Pais: {{$contact->nombre_pais}}</p>
-                                     <p>Ciudad: {{$contact->ciudad_ciudad}}</p>
+                                <div>
+                                    Sitio Web:
+                                    <p> {{$contact->website_url}} </p>
+                                    Correo Electronico:
+                                    <p>{{$contact->email}}</p>
+                                    Telefono Principal:
+                                    <p>{{$contact->telefono1}}</p>
+                                    Telefono Secundario:
+                                    <p>{{$contact->telefono2}}</p>
                                 </div>
                         </blockquote>
                         <div class="sprite arrow-speech-bubble"></div>
@@ -43,17 +44,21 @@
                 <!-- End Testimonial -->
                 <div class="testimonial col-md-4 col-sm-6">
                     <div class="author-photo">
-                        <img src="img/user2.png" alt="Author 2">
+                        <img src="../img/user2.png" alt="Author 2">
                     </div>
                     <div class="testimonial-bubble">
                         <blockquote>
-                            <div class="row">
-                                <p>
-                                    Website:
-                                    <a href="{{ $contact->website_url }}">
-                                        {{ $contact->website_url }}
-                                    </a>
-                                </p>
+                            <div>
+                                Direccion:
+                                <p>{{$contact->direccion}}</p>
+                                Pais:
+                                <p>{{$contact->Lista_pais}}</p>
+                                Estado:
+                                <p>{{$contact->nombre_estad}}</p>
+                                Ciudad:
+                                <p>{{$contact->nombre_municipi}}</p>
+                                Notas:
+                                <p>{{ $contact->notas }}</p>
                             </div>
                         </blockquote>
                         <div class="sprite arrow-speech-bubble"></div>
@@ -61,13 +66,19 @@
                 </div>
                 <div class="testimonial col-md-4 col-sm-6">
                     <div class="author-photo">
-                        <img src="img/user3.png" alt="Author 3">
+                        <img src="../img/user3.png" alt="Author 3">
                     </div>
                     <div class="testimonial-bubble">
                         <blockquote>
                             <div>
-                                <h4>Descripción</h4>
-                                <p>{{ $contact->notas }}</p>
+                                Categoria:
+                                <p>{{$contact->Tipo->name}}</p>
+                                Programa CEA:
+                                <p>{{ $contact->Contacto_type }}</p>
+                                Modulo:
+                                <p>{{$contact->Modulo}}</p>
+                                Estado actual:
+                                <p>{{$contact->estado_actual}}</p>
                             </div>
                             </fieldset>
                         </blockquote>

@@ -19,7 +19,8 @@ class ContactTableSeeder extends Seeder {
                 'full_name' => $fullName,
                 'email'    => $faker->email,
                 'password' => '123456',
-                'type'     => 'viewer'
+                'type'     => $faker->randomElement(['admin','Presidente', 'Lider', 'Colaborador', 'Invitado', 'Pendiente']),
+                'sede'     => $faker->randomElement(['Colombia','Peru', 'Guatemala', 'Mexico'])
             ]);
 
 			Contact::create([
@@ -34,8 +35,9 @@ class ContactTableSeeder extends Seeder {
                 'nombre_municipio'     => $faker->randomElement([1, 2, 3, 4, 5, 6]),
                 'notas'                => $faker->text($maxNbChars = 200),
                 'Contacto_type'        => $faker->randomElement(['Festivalores', 'Pasando la Antorcha', 'Pare', 'Alagran', 'Conferencia', 'General']),
+                'Modulo'               => $faker->randomElement(['No.1', 'No.2', 'No.3', 'No.4']),
+                'estado_actual'        => $faker->randomElement(['Activo', 'en curso', 'Informado', 'Pendiente', 'Cancelado', 'Finalizado']),
                 'tipo_id'              => $faker->randomElement([1, 2, 3, 4, 5, 6]),
-                'available'            => true,
                 'slug'                 => \Str::slug($fullName)
             ]);
         }

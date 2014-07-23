@@ -9,7 +9,7 @@ Route::get('/', ['as'=> 'home', 'uses' => 'HomeController@index']);
 Route::get('tipo/{slug}/{id}', ['as'=> 'tipo', 'uses' => 'TiposController@tipo']);
 
 //Jair-celis/1
-Route::get('{slug}/{id}', ['as'=> 'contact', 'uses' => 'TiposController@show']);
+Route::get('{slug}/{id}', ['as'=> 'contact', 'uses' => 'TiposController@ver']);
 
 //login
 Route::post('panel', ['as' =>'login', 'uses'=> 'AuthController@login'] );
@@ -38,24 +38,24 @@ Route::put('editado', ['as' => 'update_contacto', 'uses' => 'TiposController@upd
 
 //RUTAS LISTAS DEPENDIENTES FORMULARIOS PAIS ESTADO CIUDAD
 //Ruta para consultar todos los paises
-Route::get('paises', function(){
+Route::get('nombre_pais', function(){
     if(Request::ajax()){
         return ListaPaises::all()->toJson();
     }
 });
 
 //Ruta en la cual retornamos los estados relaccionados con el id del pais
-Route::POST('estados', function(){
+Route::POST('nombre_estado', function(){
     if(Request::ajax()){
-        $id_pais = e(Input::get('pais'));
+        $id_pais = e(Input::get('nombre_pais'));
         return ListaEstados::where('id_pais','=', $id_pais)->get();
     }
 });
 
 //Ruta en la cual retornamos los municipios relaccionados con el id del estado
-Route::POST('municipios', function(){
+Route::POST('nombre_municipio', function(){
     if(Request::ajax()){
-        $id_estado = e(Input::get('estado'));
+        $id_estado = e(Input::get('nombre_estado'));
         return ListaMunicipios::where('id_estado','=', $id_estado)->get();
     }
 });

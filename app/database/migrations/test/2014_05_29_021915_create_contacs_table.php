@@ -25,11 +25,13 @@ class CreateContacsTable extends Migration {
             $table->integer('nombre_municipio')->unsigned();
             $table->text('notas');
             $table->enum('Contacto_type', ['Festivalores', 'Pasando la Antorcha', 'Pare', 'Alagran', 'Conferencia', 'General']);
+            $table->enum('Modulo', ['No.1', 'No.2', 'No.3', 'No.4']);
+            $table->enum('estado_actual', ['Activo', 'en curso', 'Informado', 'Pendiente', 'Cancelado', 'Finalizado']);
             $table->integer('tipo_id')->unsigned();
-            $table->boolean('available');
             $table->string('slug');
             $table->timestamps();
             $table->foreign('tipo_id')->references('id')->on('tipos');
+
 
         });
 

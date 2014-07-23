@@ -45,7 +45,8 @@
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
-            <img  class="navbar-brand-logo" src="logo.png">
+
+            <img class="navbar-brand-logo" src="../public/img/logo.png">
             <a class="navbar-brand" href="{{ route('home') }}">Connecting Hearts</a>
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -119,35 +120,35 @@
     jQuery(document).ready(function() {
      //Al iniciar mandamos consultar todos los paises que se mantienen en nuestra base de datos atravez de la ruta paises
      $.ajax({
-        url: 'paises',
+        url: 'nombre_pais',
         type: 'GET',
         dataType: 'json',
-        success: function(pais){
-            $('select#pais').html('');
-            $('select#pais').append($('<option></option>').text('Seleccione un pais').val(''));
-            //recorremos con el metodo each el objeto
-            $.each(pais, function(i) {
+        success: function(nombre_pais){
+            $('select#nombre_pais').html('');
+            $('select#nombre_pais').append($('<option></option>').text('Seleccione un pais').val(''));
+            //recorremos con el metodo each el objetos
+            $.each(nombre_pais, function(i) {
                 //Con los parametros que recibimos en nuestro objeto pais creamos las opciones
-                $('select#pais').append("<option value=\""+pais[i].id+"\">"+pais[i].pais+"<\/option>");
+                $('select#nombre_pais').append("<option value=\""+nombre_pais[i].id+"\">"+nombre_pais[i].pais+"<\/option>");
             });
         }
     })
     //El metodo Change nos permite realizar una acción al momento que estamos interactuando con el elemento
-     $("#pais").change(function(event) {
-     var id_pais = $("#pais option:selected").val();  //obtenemos el id del pais que se mantiene seleccionado
+     $("#nombre_pais").change(function(event) {
+     var id_pais = $("#nombre_pais option:selected").val();  //obtenemos el id del pais que se mantiene seleccionado
         //Por medio de AJAX consultamos la ruta creada en laravel llamada estados la cual recibe el id del país
         $.ajax({
-            url: 'estados',
+            url: 'nombre_estado',
             type: 'POST',
-            data: 'pais='+id_pais, //enviamos el id
+            data: 'nombre_pais='+id_pais, //enviamos el id
             dataType: 'json',
-            success: function(estado){
-                $('select#estado').html('');
-                $('select#estado').append($('<option></option>').text('Seleccione un estado').val(''));
+            success: function(nombre_estado){
+                $('select#nombre_estado').html('');
+                $('select#nombre_estado').append($('<option></option>').text('Seleccione un estado').val(''));
                 //recorremos con el metodo each el objeto
-                $.each(estado, function(i) {
+                $.each(nombre_estado, function(i) {
                     //Con los parametros que recibimos en nuestro objeto estado creamos las opciones
-                    $('select#estado').append("<option value=\""+estado[i].id+"\">"+estado[i].estados+"<\/option>");
+                    $('select#nombre_estado').append("<option value=\""+nombre_estado[i].id+"\">"+nombre_estado[i].estados+"<\/option>");
                     // estado[i].id = Contiene el id del estado
                     // estado[i].estados = Contiene el nombre del estado
                     });
@@ -156,21 +157,21 @@
         });
 
         //El metodo Change nos permite realizar una acción al momento que estamos interactuando con el elemento
-     $("#estado").change(function(event) {
-     var id_estado = $("#estado option:selected").val();  //obtenemos el id del pais que se mantiene seleccionado
+     $("#nombre_estado").change(function(event) {
+     var id_estado = $("#nombre_estado option:selected").val();  //obtenemos el id del pais que se mantiene seleccionado
         //Por medio de AJAX consultamos la ruta creada en laravel llamada estados la cual recibe el id del país
         $.ajax({
-            url: 'municipios',
+            url: 'nombre_municipio',
             type: 'POST',
-            data: 'estado='+id_estado, //enviamos el id
+            data: 'nombre_estado='+id_estado, //enviamos el id
             dataType: 'json',
-            success: function(municipio){
-                $('select#municipio').html('');
-                $('select#municipio').append($('<option></option>').text('Seleccione un municipio').val(''));
+            success: function(nombre_municipio){
+                $('select#nombre_municipio').html('');
+                $('select#nombre_municipio').append($('<option></option>').text('Seleccione un municipio').val(''));
                 //recorremos con el metodo each el objeto
-                $.each(municipio, function(i) {
+                $.each(nombre_municipio, function(i) {
                     //Con los parametros que recibimos en nuestro objeto estado creamos las opciones
-                    $('select#municipio').append("<option value=\""+municipio[i].id+"\">"+municipio[i].municipio+"<\/option>");
+                    $('select#nombre_municipio').append("<option value=\""+nombre_municipio[i].id+"\">"+nombre_municipio[i].municipio+"<\/option>");
                     // estado[i].id = Contiene el id del Municipio
                     // estado[i].estados = Contiene el nombre del Municipio
                     });

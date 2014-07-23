@@ -109,6 +109,8 @@ return array(
         'available'            => 'Modulo?',
         'contacto_type'        => 'Programa CEA',
         'tipo_id'              => 'Categoria Contacto'
+
+
 	),
 
 );

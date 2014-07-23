@@ -1,6 +1,5 @@
 @extends('layout')
 @section('content')
-
 <div class="section section-breadcrumbs">
     <div class="container">
         <div class="row">
@@ -14,17 +13,13 @@
 </div>
 
 <div class="container">
-
     <div class="row">
         <div class="col-lg-8">
-
             <!-- blog entry -->
             <h1>
                 <a href="#">{{ $tipo->name }}</a>
                 <p class="lead">De <a href="index.php">Corazones En Acción Colombia</a> </p>
-
             </h1>
-
             <hr>
 
             <table class="table table-striped">
@@ -121,7 +116,6 @@
             <!-- /well -->
         </div>
     </div>
-
     <hr>
 
 </div>

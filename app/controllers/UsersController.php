@@ -40,7 +40,8 @@ class UsersController extends BaseController {
 
     public function signUp()
     {
-        return View::make('users/sign-up');
+        $sede = \Lang::get('utils.sede');
+        return View::make('users/sign-up',compact('sede'));
     }
 
     public function register()
@@ -48,14 +49,17 @@ class UsersController extends BaseController {
         $user = $this->userRepo->newUser();
         $manager = new RegisterManager($user, Input::all());
         $manager->save();
-
         return Redirect::route('home');
+
+
+        //return View::make('panel/panel', compact('user', 'user'));
     }
 
     public function account()
     {
         $user = Auth::user();
-        return View::make('users/account', compact('user'));
+        $sede = \Lang::get('utils.sede');
+        return View::make('users/account', compact('user', 'sede'));
     }
 
     public function updateAccount()
@@ -74,14 +78,14 @@ class UsersController extends BaseController {
         $nombre_pais = $this->paisRepo->getList();
         $tipo_id = $this->tipoRepo->getList();
         $contacto_type = \Lang::get('utils.contacto_type');
+        $estado_actual = \Lang::get('utils.estado_actual');
+        $Modulo = \Lang::get('utils.Modulo');
         //   return View::make('contactos/nuevo-contacto', compact('tipo_id', 'contacto_type'));
-     return View::make('contactos/nuevo-contacto', compact('tipo_id', 'contacto_type','nombre_pais', 'nombre_estados', 'nombre_municipios'));
+        return View::make('contactos/nuevo-contacto', compact('tipo_id', 'contacto_type','nombre_pais', 'nombre_estados', 'nombre_municipios', 'estado_actual', 'Modulo'));
     }
 
     public function newContact()
     {
-
-
         $contact = $this->contactRepo->nuevoContact();
         $manager = new ContactManager($contact, Input::all());
         $manager->save();
@@ -90,7 +94,7 @@ class UsersController extends BaseController {
 
         //return Redirect::route('home');
 
-        /*
+       /*
         $contact = new Contact;
         $contact -> full_name = Input::get('full_name');
         $contact -> email = Input::get('email');
@@ -98,9 +102,9 @@ class UsersController extends BaseController {
         $contact -> telefono1 = Input::get('telefono1');
         $contact -> telefono2 = Input::get('telefono2');
         $contact -> direccion = Input::get('direccion');
-        $contact -> nombre_pais = Input::get('pais');
-        $contact -> nombre_estado = Input::get('estado');
-        $contact -> nombre_municipio = Input::get('municipio');
+        $contact -> nombre_pais = Input::get('nombre_pais');
+        $contact -> nombre_estado = Input::get('nombre_estado');
+        $contact -> nombre_municipio = Input::get('nombre_municipio');
         $contact -> notas = Input::get('notas');
         $contact -> available = Input::get('available');
         $contact -> contacto_type = Input::get('contacto_type');

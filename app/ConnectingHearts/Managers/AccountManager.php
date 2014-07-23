@@ -14,6 +14,4 @@ class AccountManager extends BaseManager {
 
         return $rules;
     }
-
-
-} 
+}

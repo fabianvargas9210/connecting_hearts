@@ -21,8 +21,8 @@ class UserRepo extends BaseRepo {
     public function newUser()
     {
       $user = new User();
-      $user->type = 'viewer';
+      $user->type = 'Pendiente';
       return $user;
     }
 
-} 
+}

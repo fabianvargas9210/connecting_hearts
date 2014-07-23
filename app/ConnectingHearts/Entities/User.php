@@ -18,7 +18,7 @@ class User extends \Eloquent implements UserInterface, RemindableInterface {
 	 * @var array
 	 */
 	protected $hidden = array('password');
-    protected $fillable = array('full_name', 'email', 'password');
+    protected $fillable = array('full_name', 'email','sede', 'password');
 
 
     public function setPasswordAttribute($value)

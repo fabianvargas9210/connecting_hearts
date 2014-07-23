@@ -15,12 +15,15 @@
             {{ Form::open(['route' => 'register', 'method' => 'POST', 'role' => 'form', 'novalidate']) }}
             {{ field::text('full_name', null, array('placeholder'=>'Nombre Completo')) }}
             {{ field::email('email', null, array('placeholder'=>'Correo Electronico')) }}
+            {{ field::select('sede', $sede) }}
             {{ field::password('password', ['placeholder' => 'tu contraseña']) }}
             {{ field::password('password_confirmation', ['placeholder' => 'Repite tu contraseña']) }}
 
-            <div class="form-group">
-                <div class="col-lg-10 col-lg-offset-2">
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+            <div class="label">
+                <div class="form-group">
+                    <div class="col-lg-10">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
                 </div>
             </div>
         </fieldset>

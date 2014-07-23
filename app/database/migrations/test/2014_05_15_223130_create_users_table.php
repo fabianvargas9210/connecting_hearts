@@ -17,7 +17,8 @@ class CreateUsersTable extends Migration {
 			$table->string('full_name');
 			$table->string('email');
 			$table->string('password');
-			$table->enum('type', ['admin','viewer']);
+			$table->enum('type', ['admin','Presidente', 'Lider', 'Colaborador', 'Invitado', 'Pendiente']);
+            $table->enum('sede', ['Colombia','Peru', 'Guatemala', 'Mexico']);
 			$table->string('remember_token')->nullable();
 
 			$table->timestamps();

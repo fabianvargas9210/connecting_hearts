@@ -10,8 +10,6 @@
             </div>
         </div>
     </div>
-
-
     <div class="section">
         <div class="container">
             <h2>Recuerda Completar todos los campos</h2>
@@ -45,19 +43,20 @@
                     </div>
                     <div class="testimonial-bubble">
                         <blockquote>
-                            <div>
-                                {{ field::text('direccion', null, array('placeholder'=>'Dirección')) }}
+                            {{ field::text('direccion', null, array('placeholder'=>'Dirección')) }}
+                            <div class="row">
                                 <label class="control-label">Datos de Geograficos</label>
-                                <select class="form-control" id="pais" name="pais"></select>
-                                <select class="form-control" id="estado" name="estado">
+                                <select class="form-control" id="nombre_pais" name="nombre_pais"></select>
+                                <select class="form-control" id="nombre_estado" name="nombre_estado">
                                     <option value="">Es necesario seleccionar un Pais</option>
                                 </select>
-                                <select class="form-control" id="municipio" name="municipio">
+                                <select class="form-control" id="nombre_municipio" name="nombre_municipio">
                                     <option value="">Es necesario seleccionar un estado</option>
                                 </select>
                             </div>
+                            {{ field::textarea('notas') }}
                         </blockquote>
-                        <div class="sprite arrow-speech-bubble"></div>
+                    <div class="sprite arrow-speech-bubble"></div>
                     </div>
                 </div>
                 <div class="testimonial col-md-4 col-sm-6">
@@ -67,17 +66,14 @@
                     <div class="testimonial-bubble">
                         <blockquote>
                             <div>
-                                {{ field::textarea('notas') }}
-                            </div>
-
-                            <div>
                                 {{ field::select('tipo_id', $tipo_id) }}
                                 {{ field::select('contacto_type', $contacto_type) }}
-                                {{ field::checkbox('available') }}
+                                {{ field::select('estado_actual', $estado_actual) }}
+                                {{ field::select('modulo', $Modulo) }}
                             </div>
 
                             <div class="form-group">
-                                <div class="col-lg-10 col-lg-offset-2">
+                                <div class="label col-lg-10">
                                     <button type="submit" class="btn btn-primary">Enviar</button>
                                 </div>
                             </div>

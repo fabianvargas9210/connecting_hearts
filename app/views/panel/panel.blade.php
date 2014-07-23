@@ -16,22 +16,38 @@
         </div>
     </div>
 <div class="section">
+
+
+
     <div class="container">
         <div class="row">
-        <div class="col-lg-7 col-md-7">
-            <a href="{{ route('panel-contactos') }}">
-                <img class="img-responsive" src="../public/estilos/purpose/img/panel/ceacol-contac.png" alt="">
-            </a>
-        </div>
-
-        <div class="col-lg-5 col-md-5">
-            <h3>Contactos Cea Colombia</h3>
-            <h4>En Pruebas!</h4>
-            <p>Encontrar un contacto nunca fue tan facil, utiliza esta aplicacción si tienes dudas o quieres hacer algun reporte de un error solo debes escribir un correo jair.celis@heartsinaction.org.</p>
+            <div class="col-lg-7 col-md-7">
+                <a href="{{ route('panel-contactos') }}">
+                    <img class="img-responsive" src="" alt="">
+                </a>
+            </div>
+            <div class="col-lg-5 col-md-5">
+                <h3>Contactos Cea Colombia</h3>
+                <h4>En Pruebas!</h4>
+                <p>Encontrar un contacto nunca fue tan facil, utiliza esta aplicacción si tienes dudas o quieres hacer algun reporte de un error solo debes escribir un correo jair.celis@heartsinaction.org.</p>
                 <a class="btn btn-primary" href="{{ route('panel-contactos') }}">Contactos <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
         </div>
+        <hr>
 
-    </div>
+        <div class="row">
+            <div class="col-lg-7 col-md-7">
+                <a href="{{ route('panel-contactos') }}">
+                    <img class="img-responsive" src="../public/estilos/purpose/img/panel/ceacol-contac.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-5 col-md-5">
+                <h3>Contactos Cea Colombia</h3>
+                <h4>En Pruebas!</h4>
+                <p>Encontrar un contacto nunca fue tan facil, utiliza esta aplicacción si tienes dudas o quieres hacer algun reporte de un error solo debes escribir un correo jair.celis@heartsinaction.org.</p>
+                <a class="btn btn-primary" href="{{ route('panel-contactos') }}">Contactos <span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+        </div>
         <hr>
         <div class="row">
 

@@ -4,11 +4,11 @@ class Contact extends \Eloquent {
 
     protected $table = 'contacts';
     protected $perPage = 5;
-    protected $fillable = array('full_name', 'email', 'website_url', 'telefono1', 'telefono2', 'direccion', 'nombre_pais', 'nombre_estado', 'nombre_municipio', 'Contacto_type', 'notas', 'tipo_id', 'available', 'slug');
+    protected $fillable = array('full_name', 'email', 'website_url', 'telefono1', 'telefono2', 'direccion', 'nombre_pais', 'nombre_estado', 'nombre_municipio', 'Contacto_type', 'notas', 'tipo_id', 'estado_actual', 'modulo', 'slug');
 
-    public function tipo()
+    public function Tipo()
     {
-            return $this->belongsTo('ConnectingHearts\Entities\Tipo');
+        return $this->belongsTo('ConnectingHearts\Entities\Tipo');
     }
 
     public function ListaPaises()
